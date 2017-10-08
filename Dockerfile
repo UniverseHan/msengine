@@ -7,4 +7,6 @@ COPY . ~/msengine
 
 WORKDIR ~/msengine
 
+RUN npm install
+
 CMD node app.js
