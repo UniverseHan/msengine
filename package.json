@@ -1,6 +1,8 @@
 {
   "name": "msengine",
-  "version": "0.0.1"
+  "version": "0.0.1",
   "description": "Web Site for all engineers who belong to jesus",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.16.1"
+  }
 }
