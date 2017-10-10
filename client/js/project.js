@@ -15,9 +15,7 @@ window.onload = function () {
         projectDom.appendChild(projectNode);
     }
 
-    console.log(projectDom.innerHTML);
-
-    projectDom.getElementsByTagName('p')[0].innerText = sampleProject.name;
-    projectDom.getElementsByTagName('p')[1].innerText = sampleProject.writer;
-    projectDom.getElementsByTagName('p')[2].innerText = sampleProject.recruitment;
+    projectDom.getElementsByTagName('p')[0].innerText = "프로젝트명 : " + sampleProject.name;
+    projectDom.getElementsByTagName('p')[1].innerText = "작성자 : " + sampleProject.writer;
+    projectDom.getElementsByTagName('p')[2].innerText = "모집 인원 : " + sampleProject.recruitment;
 };
