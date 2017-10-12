@@ -1,9 +1,16 @@
+.logo {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-image: url("../images/icon/rocket.svg");
+}
+
 .title-image {
     width: 100%;
     height: 700px;
     background-image: url("../images/labtop-table.jpg");
     background-size: cover;
-
 }
 
 .title-content {
@@ -35,4 +42,11 @@
 .menu-bar li a {
     text-decoration: none;
     color: dimgrey;
+}
+
+.description-content {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: bisque;
 }
