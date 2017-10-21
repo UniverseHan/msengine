@@ -6,7 +6,7 @@ sudo: false
 
 script:
   - ls
-  - export SSHPASS=$DEPLO_PASS
+  - export SSHPASS=$DEPLOY_PASS
   - sshpass -e ssh $DEPLOY_USER@$DEPLOY_HOST $DEPLOY_PATH/deploy.sh
 
 addons:
