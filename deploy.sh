@@ -1,3 +1,5 @@
+cd `dirname $0`
+
 git pull
 docker build -t universehan/msengine .
 docker stop msengine-server
