@@ -3,7 +3,7 @@ sudo: false
 script:
 - ls
 - export SSHPASS=$DEPLOY_PASS
-- sshpass -e ssh -p 9003 $DEPLOY_USER@$DEPLOY_HOST $DEPLOY_PATH/deploy.sh
+- sshpass -e ssh -o stricthostkeychecking=no -p 9003 $DEPLOY_USER@$DEPLOY_HOST $DEPLOY_PATH/deploy.sh
 addons:
   apt:
     packages: sshpass
