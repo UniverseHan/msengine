@@ -11,25 +11,32 @@
     margin: 0;
     padding: 0;
 }
-.menu-bar li {
-    display: inline-block;
-    font-size: 15px;
-    padding: 10px 10px;
-    cursor: pointer;
-}
 .menu-area {
+    display: inline-block;
     width: 60%;
     height: 100%;
 }
 
-.menu-bar li a {
+.menu-list {
+    padding: 0;
+    float: left;
+}
+.menu-list li {
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 10px;
+    cursor: pointer;
+    line-height: inherit;
+    vertical-align: bottom;
+}
+.menu-list li a {
     text-decoration: none;
     color: azure;
 }
 
 .logo {
     display: inline-block;
-    width: 35%;
+    width: 40%;
     height: 100%;
     float: left;
 }
@@ -68,4 +75,17 @@
     height: 500px;
     margin: 0 auto;
     background-color: bisque;
+}
+
+.enroll {
+
+}
+
+.project-info {
+    width: 70%;
+    border: 1px solid red;
+}
+
+.project-info .content {
+    display: block;
 }
