@@ -46,7 +46,7 @@
     height: 32px;
     margin: 14px;
     background-size: cover;
-    background-image: url("../static/images/icon/rocket.png");
+    background-image: url("../images/icon/rocket.png");
 }
 
 .title-background {
