@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Web Site for all engineers who belong to jesus",
   "dependencies": {
-    "express": "^4.16.1"
+    "express": "^4.16.1",
+    "vue": "^2.4.4"
   }
 }
